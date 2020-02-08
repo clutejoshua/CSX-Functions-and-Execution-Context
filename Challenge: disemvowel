@@ -1,0 +1,20 @@
+function disemvowel(string) {
+  return string.replace(/[aeiou]/ig, '');
+  
+//   let vowels = {a: true, e: true, i: true, o: true, u: true};
+  
+//   let result = '';
+//   for (let i = 0; i < string.length; i++) {
+//     let letters = string.toLowerCase();
+//     if (!vowels[letters[i]]) {
+//       result += string[i];
+//     }
+//   }
+//   return result;
+}
+
+//Comment in the code below to test your function:
+
+console.log(disemvowel('CodeSmith')); // => 'CdSmth'
+console.log(disemvowel('BANANA')); // => 'BNN'
+console.log(disemvowel('hello world')); // => 'hll wrld'
